@@ -42,7 +42,7 @@ AV.Cloud.define("NewTksendMail", function(request, response) {
 					to+=","
 				}
 			}
-			console.log("执行"+to+content);
+			console.log("执行1"+to+content);
 			seadMail("您负责的模块有新提问，请尽快回复客户。",to,content);
 			response.success("cg");
 		}
